@@ -1,0 +1,175 @@
+.center_text {
+  text-align: center;
+}
+
+.color1 {
+  background-color: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-section {
+  background-color: #eaebed;
+  background-image: url("https://image.freepik.com/foto-gratis/nino-adolescente-haciendo-tarea_23-2147668985.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  width: 30%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__navigation {
+  width: 70%;
+  height: 10vh;
+}
+
+.main {
+  max-width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section {
+  width: 100%;
+  height: 50vh;
+}
+
+.section__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2__imagen {
+  width: 40%;
+  height: 250px;
+}
+
+.section2__text {
+  width: 40%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 3em;
+}
+
+.layou-size {
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout-safe {
+  max-width: 70vw;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.header__text {
+  letter-spacing: 5px;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.header__circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.navigation__list {
+  height: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.article__logo {
+  height: 40px;
+  width: 40px;
+  background-color: #e3eaf5;
+  border-radius: 50%;
+}
+
+.article__title {
+  margin: 20px;
+}
+
+.section2__img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

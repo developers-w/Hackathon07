@@ -1,0 +1,77 @@
+.first-section{
+    
+    background-color:#eaebed;
+    background-image: url('https://image.freepik.com/foto-gratis/nino-adolescente-haciendo-tarea_23-2147668985.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__logo{
+    width: 30%;
+    height: 10vh; 
+    display: flex;
+    align-items: center;
+}
+
+.header__navigation{
+    width: 70%;
+    height: 10vh; 
+}
+.main{
+    max-width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.section{
+        width: 100%;
+        height: 50vh;
+        &__article{
+            display: flex;
+
+        }
+}
+
+.section2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    &__imagen{
+        width:40%;
+        height: 250px;
+        
+    }
+    &__text{
+        width: 40%;
+        align-self: center;
+        margin-left: 3em;
+
+    }
+
+
+}
+
+
+
+
+.layou-size{
+    width: 100vw;
+    height: 100vh;  
+}
+.layout-safe{
+    max-width: 70vw;
+    min-height: 100vh;  
+    margin: 0 auto; 
+}
